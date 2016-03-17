@@ -30,7 +30,7 @@
     "toastr": "~2.0.3",
     "moment": "~2.8.1",
     "jquery": "~2.1.1",
-    "chosen": "~1.4.2",
+    "chosen": "~1.4.2"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.8"
