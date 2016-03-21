@@ -41,6 +41,7 @@
 
     var imageSettings = {
         imageBasePath: '../assets/images/',
+        unknownImageSource: '../assets/images/unkown.jpg',
         unknownPersonImageSource: 'unknown_person.jpg'
     };
 
