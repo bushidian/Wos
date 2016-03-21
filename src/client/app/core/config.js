@@ -40,7 +40,7 @@
     };
 
     var imageSettings = {
-        imageBasePath: '../content/images/',
+        imageBasePath: '../assets/images/',
         unknownPersonImageSource: 'unknown_person.jpg'
     };
 
@@ -105,7 +105,7 @@
             // prefix and suffix information  is required to specify a pattern
             // You can simply use the static-files loader with this pattern:
             $translateProvider.useStaticFilesLoader({
-                prefix: 'content/i18n/',
+                prefix: 'assets/i18n/',
                 suffix: '.json'
             });
 
@@ -122,7 +122,7 @@
         function configureRouting() {
             var routeCfg = routehelperConfigProvider;
             routeCfg.config.$routeProvider = $routeProvider;
-            routeCfg.config.docTitle = 'Syq: ';
+            routeCfg.config.docTitle = 'Wos: ';
             routeCfg.config.resolveAlways = { /* @ngInject */
                 ready: function() {
                     
