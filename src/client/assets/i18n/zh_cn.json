@@ -1,0 +1,30 @@
+{
+  "cancel": "取消",
+  "crawler":{
+    "title": "爬虫",
+    "code": "编号",
+    "name": "名称",
+    "status": "状态",
+    "url": "Url路径",
+    "createTime": "创建日期"
+  },
+  "create": "新增",
+  "delete": "删除",
+  "document": {
+    "title": "文档",
+    "code": "编号"  
+  },
+  "edit": "编辑",
+  "layout": {
+     "chosenLanguage": "选择语言:{{value}}"
+  },
+  "ok": "确定",
+  "yes": "是",
+  "no": "否",
+  "run": "运行",
+  "query": {
+    "empty": "没有符合查询条件的结果"
+  },
+  "title": "标题",
+  "save": "保存"
+}

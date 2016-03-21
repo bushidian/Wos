@@ -1,0 +1,30 @@
+{
+  "cancel": "Cancel",
+  "crawler": {
+    "title": "Crawler",
+    "code": "Code",
+    "name": "Name",
+    "url": "Url",
+    "status": "Status",
+    "createTime": "Create Time"
+  },
+  "create": "Create New",
+  "delete": "Delete",
+  "document": {
+    "title": "Document",
+    "code": "Code"
+  },
+  "edit": "Edit",
+  "layout":{
+      "chosenLanguage": "Chosen Language: {{value}}"
+  },
+  "ok": "OK",
+  "yes": "Yes",
+  "no": "No",
+  "run": "Run",
+  "query": {
+    "empty": "Query results did not meet the conditions"
+  },
+  "title": "Title",
+  "save": "Save"
+}
