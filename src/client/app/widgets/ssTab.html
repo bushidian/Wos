@@ -1,0 +1,11 @@
+<div>
+    <ul class="nav nav-tabs" >
+        <li ng-repeat="tab in vm.tabs track by $index" ng-class="{active:tab.selected}"  >
+            <a ng-click="vm.select(tab)">
+                <i ng-show="{{!!tab.icon}}" ng-class="vm.getIcon(tab)"></i>
+                {{tab.title}}
+            </a>
+        </li>
+    </ul>
+    <div class="tab-content" ng-transclude></div>
+</div>

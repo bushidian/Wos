@@ -14,6 +14,7 @@
          * but this is easier to maintain.
          */
         'app.core',
+        'app.widgets', // needs core
         /*
          * Feature areas
          *

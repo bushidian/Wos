@@ -12,8 +12,9 @@
         //<ss-tab-item title="product" >product</ss-tab-item>
         //</ss-tab>
         var directive = {
-            controller:bfeTabController,
+            controller:ssTabController,
             controllerAs:'vm',
+            templateUrl: 'app/widgets/ssTab.html',
             restrict: 'E',
             replace: true,
             scope: true,
@@ -22,7 +23,7 @@
 
         return directive;
 
-        function bfeTabController(){
+        function ssTabController(){
             /*jshint validthis: true */
             var vm = this;
             vm.tabs = [];
