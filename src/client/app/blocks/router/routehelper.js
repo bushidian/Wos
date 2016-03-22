@@ -56,7 +56,7 @@
                     angular.extend(route.config.resolve || {}, routehelperConfig.config.resolveAlways);
                 $routeProvider.when(route.url, route.config);
             });
-            $routeProvider.otherwise({redirectTo: '/'});
+            $routeProvider.otherwise({redirectTo: '/404'});
         }
 
         function handleRoutingErrors() {
@@ -102,8 +102,8 @@
                 function(event, current, previous) {
                     routeCounts.changes++;
                     handlingRouteChangeError = false;
-                    var title = routehelperConfig.config.docTitle + ' ' + (current.title || '');
-                    $rootScope.title = title; // data bind to <title>
+                    $rootScope.title = routehelperConfig.config.docTitle + ' '
+                        + (current.title || ''); // data bind to <title>
                 }
             );
         }

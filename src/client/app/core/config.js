@@ -61,7 +61,7 @@
     { key:'中文',value: 'zh_cn' } ];
 
     var config = {
-        appErrorPrefix: '[Syq Error] ', //Configure the exceptionHandler decorator
+        appErrorPrefix: '[Wos Error] ', //Configure the exceptionHandler decorator
         events: events,
         imageSettings: imageSettings,
         keyCodes: keyCodes,
